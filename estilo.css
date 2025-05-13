@@ -30,7 +30,7 @@ header {
     text-decoration: none;
 }
 
-figure {
+.logo_header {
     display: flex;
     width: 10%;
     justify-content: flex-start;
@@ -39,4 +39,19 @@ figure {
 
 .img_logo{
     width: 100px;
+}
+
+.destaque {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.sobre_mim {
+    height: 100%;
+    background-image: url("assets/OIP.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
