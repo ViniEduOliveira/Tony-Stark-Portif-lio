@@ -76,10 +76,12 @@ header {
     position: relative;
     padding-bottom: 40px;
     font-size: 130px;
+    color: white;
 }
 
 .sobre_mim_item > h3 {
     display: inline-block;
     position: relative;
     font-size: 25px;
+    color: white;
 }
