@@ -84,10 +84,6 @@ header {
 
 .sobre_mim {
     height: 100vh;
-    opacity: 0.7;
-    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("assets/OIP.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
     display: flex;
     justify-content: center;
@@ -98,24 +94,27 @@ header {
     width: 80%;
     height: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     text-align: center;
+    gap: 80px;
     
 }
 
-.sobre_mim_item > h1 {
+.tony_stark {
+
+}
+
+.sobre_mim_texto > h1 {
     text-align: center;
     position: relative;
     padding-bottom: 40px;
-    font-size: 130px;
-    color: white;
+    font-size: 80px;
 }
 
-.sobre_mim_item > h3 {
+.sobre_mim_texto > h3 {
     display: inline-block;
     position: relative;
-    font-size: 25px;
-    color: white;
+    font-size: 20px;
 }
