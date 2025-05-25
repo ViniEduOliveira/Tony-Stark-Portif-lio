@@ -87,7 +87,7 @@ header {
     background-color:rgb(8, 3, 3);
     display: flex;
     justify-content: center;
-    
+}
 
 .sobre_mim_item {
     width: 80%;
@@ -120,4 +120,12 @@ header {
     display: inline-block;
     position: relative;
     font-size: 20px;
+}
+
+.qualificações {
+    height: fit-content;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
 }
