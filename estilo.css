@@ -84,14 +84,10 @@ header {
 
 .sobre_mim {
     height: 100vh;
-    background-position: center;
+    background-color:rgb(8, 3, 3);
     display: flex;
     justify-content: center;
-    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(https://www.fatosdesconhecidos.com.br/wp-content/uploads/2019/10/reator-1-600x375.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
+    
 
 .sobre_mim_item {
     width: 80%;
@@ -107,6 +103,10 @@ header {
 
 .tony_stark {
 
+}
+
+.sobre_mim_texto {
+    color: white;
 }
 
 .sobre_mim_texto > h1 {
