@@ -102,6 +102,11 @@ header {
 }
 
 .tony_stark {
+    width: 100%;
+}
+
+.tony_stark > img{
+    height: 500px;
 
 }
 
