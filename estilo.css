@@ -64,14 +64,14 @@ header {
     text-align: center;
     position: relative;
     padding-bottom: 40px;
-    font-size: 130px;
+    font-size: 100px;
     color: white;
 }
 
 .depoimento_items > h3 {
     display: inline-block;
     position: relative;
-    font-size: 25px;
+    font-size: 20px;
     color: white;
 }
 
