@@ -181,3 +181,42 @@ header {
     font-size: 25px;
     margin-bottom: 20px;
 }
+
+.projetos {
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+    
+}
+
+.bloco-projetos {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+}
+
+.bloco-projetos-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 20%;
+    background-color: rgba(128,128,128,0.4);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.bloco-projetos-item > img {
+    width: 100%;
+    border-radius: 10px;
+}
+
